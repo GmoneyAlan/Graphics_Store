@@ -8,7 +8,7 @@ int signIn();
 const char *getUserName();
 const char *getPassword();
 bool getMenu();
-bool setMenu(bool menu);
+void setMenu(bool menu);
 void changeName();
 void accountOptions();
 void changePassword();

@@ -5,11 +5,14 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
+#include <login.c>
 #include "login.h"
+#include <product.c>
 #include "product.h"
 
 //conditions for menu to run repeatedly
 int main(void){
+
   while(getMenu()){
     if(!userExist())
       userCreate();
@@ -20,7 +23,7 @@ int main(void){
       accountOptions();
     }
     if(userExist())
-      store(getMenu());
+      store();
   }
   return 0;
 }

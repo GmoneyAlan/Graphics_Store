@@ -1,0 +1,3 @@
+C:/Users/alan2/Desktop/Projects/Col Projects/Graphics Store/cmake-build-debug/CMakeFiles/Graphics_Store.dir
+C:/Users/alan2/Desktop/Projects/Col Projects/Graphics Store/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/alan2/Desktop/Projects/Col Projects/Graphics Store/cmake-build-debug/CMakeFiles/rebuild_cache.dir

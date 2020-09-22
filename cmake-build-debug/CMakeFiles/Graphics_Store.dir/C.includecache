@@ -1,0 +1,70 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../login.c
+stdio.h
+-
+string.h
+-
+stdbool.h
+-
+string.h
+-
+stdlib.h
+-
+product.h
+../product.h
+
+../product.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+stdbool.h
+-
+login.h
+../login.h
+product.h
+../product.h
+
+C:/Users/alan2/Desktop/Projects/Col Projects/Graphics Store/login.h
+
+C:/Users/alan2/Desktop/Projects/Col Projects/Graphics Store/main.c
+stdio.h
+-
+string.h
+-
+stdbool.h
+-
+login.c
+-
+login.h
+C:/Users/alan2/Desktop/Projects/Col Projects/Graphics Store/login.h
+product.c
+-
+product.h
+C:/Users/alan2/Desktop/Projects/Col Projects/Graphics Store/product.h
+
+C:/Users/alan2/Desktop/Projects/Col Projects/Graphics Store/product.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+stdbool.h
+-
+login.h
+C:/Users/alan2/Desktop/Projects/Col Projects/Graphics Store/login.h
+product.h
+C:/Users/alan2/Desktop/Projects/Col Projects/Graphics Store/product.h
+
+C:/Users/alan2/Desktop/Projects/Col Projects/Graphics Store/product.h
+
